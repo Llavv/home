@@ -22,6 +22,8 @@ marquee {
     position:absolute;
     bottom:0;
     margin:auto;
+    position:absolute;
+    bottom:0;
 }
 
 .content h2 {

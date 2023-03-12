@@ -55,6 +55,7 @@ a[target="_blank"]:hover {
     border-color: #8057cc;
     margin: var(--container-margin);
     color: #a032b6;
+    position:relative;
 }
 
 .page-category {
