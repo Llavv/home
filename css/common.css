@@ -21,7 +21,7 @@ header h1 {
 
 a {
     text-decoration: none;
-    color: #b80000;
+    color: #a032b6;
 }
 
 a[target="_blank"]::after {
@@ -43,23 +43,23 @@ a[target="_blank"]:hover {
 }
 
 .nav-header ul {
-    list-style-type: none;
+    list-style-type: ;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color: #ffaaaa;
+    background-color: #e4aaff;
     opacity: 0.8;
     border-style: double;
-    border-color: #fa3c3c;
+    border-color: #8057cc;
     margin: var(--container-margin);
-    color: #af1515;
+    color: #a032b6;
 }
 
 .page-category {
-    background-color: #ca4343;
-    color: #ffaaaa;
+    background-color: #8057cc;
+    color: #e4aaff;
     text-align: center;
 }
 
@@ -69,11 +69,11 @@ a[target="_blank"]:hover {
 }
 
 .page-button a {
-    color: #800000;
+    color: #5c0080;
 }
 
 .page-button a:active {
-    color: #b03939;
+    color: #8439b0;
 }
 
 .commontable {
@@ -150,7 +150,7 @@ a[target="_blank"]:hover {
     }
 
     .page-button a:hover {
-        color: #c00000;
+        color: #9300c0;
         font-style: italic;
     }
 

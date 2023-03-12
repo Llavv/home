@@ -11,8 +11,8 @@ th, td {
 }
 
 marquee {
-    background-color: #ca4343;
-    color: #ffaaaa;
+    background-color: #8057cc;
+    color: #e4aaff;
     margin-left: 5px;
     margin: 0px 5px;
     padding: 3px;
@@ -33,10 +33,10 @@ marquee {
 }
 
 .news-entry {
-    background-color: #ca4343;
-    color: #ffaaaa;
+    background-color: #8057cc;
+    color: #e4aaff;
     padding: 8px;
-    box-shadow: 3px 3px 1px #b63232;
+    box-shadow: 5px 5px 3px #a032b6;
     display: flex;
 }
 
