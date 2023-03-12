@@ -59,7 +59,11 @@ a[target="_blank"]:hover {
 }
 
 .nav-container {
-    
+    position: absolute;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .page-category {
@@ -127,7 +131,7 @@ a[target="_blank"]:hover {
     }
 
     .content {
-        width: 780px;
+        width: 100%;
         height: 480px;
         display: inline-block;
     }
