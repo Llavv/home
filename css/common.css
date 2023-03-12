@@ -5,7 +5,7 @@
 
 /* defaults */
 body {
-    background-image: url("/assets/1719733.png");
+    background-image: url("1719733.png");
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -49,7 +49,7 @@ a[target="_blank"]:hover {
 }
 
 .container {
-    background-image: url("/assets/1719733.png");
+    background-image: url("1719733.png");
     border-style: double;
     border-color: #fa3c3c;
     margin: var(--container-margin);
