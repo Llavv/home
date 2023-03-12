@@ -1,0 +1,54 @@
+@import "common.css";
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+th, td {
+    border-style: none;
+}
+
+marquee {
+    background-color: #ca4343;
+    color: #ffaaaa;
+    margin-left: 5px;
+    margin: 0px 5px;
+    padding: 3px;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content h3, p {
+    margin: 8px;
+}
+
+.news-container {
+    margin: 0px auto;
+    width: 98%;
+}
+
+.news-entry {
+    background-color: #ca4343;
+    color: #ffaaaa;
+    padding: 5px;
+    box-shadow: 3px 3px 1px #b63232;
+}
+
+/* mobile */
+@media (min-width: 375px)
+{
+    .nav-list {
+        text-align: center;
+    }
+}
+
+/* desktop */
+@media (min-width: 780px) {
+    .main {
+        margin-top: 5%;
+    }
+}
