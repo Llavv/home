@@ -49,7 +49,8 @@ a[target="_blank"]:hover {
 }
 
 .container {
-    background-image: url("../res/assets/bg1-nhal.png");
+    background-color: #ffaaaa;
+    opacity: 0.8;
     border-style: double;
     border-color: #fa3c3c;
     margin: var(--container-margin);
