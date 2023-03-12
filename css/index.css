@@ -18,6 +18,11 @@ marquee {
     padding: 3px;
 }
 
+.marquee {
+    position:absolute;
+    bottom:0;
+}
+
 .content h2 {
     text-align: center;
 }
