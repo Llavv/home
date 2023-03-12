@@ -29,6 +29,7 @@ marquee {
 .news-container {
     margin: 0px auto;
     width: 98%;
+    display: flex;
 }
 
 .news-entry {
@@ -36,7 +37,7 @@ marquee {
     color: #ffaaaa;
     padding: 8px;
     box-shadow: 3px 3px 1px #b63232;
-    display:flex;
+    display: flex;
 }
 
 .center {
