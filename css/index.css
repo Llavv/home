@@ -13,8 +13,6 @@ th, td {
 marquee {
     background-color: #8057cc;
     color: #e4aaff;
-    margin-left: 5px;
-    margin: 0px 5px;
     padding: 3px;
 }
 
@@ -24,6 +22,8 @@ marquee {
     margin:auto;
     position:absolute;
     bottom:0;
+    left:0;
+    right:0;
 }
 
 .content h2 {
