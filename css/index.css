@@ -38,6 +38,10 @@ marquee {
     box-shadow: 3px 3px 1px #b63232;
 }
 
+.center {
+    justify-content: center;
+}
+
 /* mobile */
 @media (min-width: 375px)
 {
