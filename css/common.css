@@ -93,6 +93,11 @@ a[target="_blank"]:hover {
     padding-top: 5px;
 }
 
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* mobile */
 @media (min-width: 375px) {
     .main {
