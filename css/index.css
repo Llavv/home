@@ -34,8 +34,9 @@ marquee {
 .news-entry {
     background-color: #ca4343;
     color: #ffaaaa;
-    padding: 5px;
+    padding: 8px;
     box-shadow: 3px 3px 1px #b63232;
+    display:flex;
 }
 
 .center {
