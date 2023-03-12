@@ -43,7 +43,7 @@ a[target="_blank"]:hover {
 }
 
 .nav-header ul {
-    list-style-type: ;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -112,8 +112,12 @@ a[target="_blank"]:hover {
 /* desktop */
 @media (min-width: 780px) {
     @keyframes tilt-loop {
-        from    { transform: rotate(3deg); }
+        from    { transform: (3deg); }
         to      { transform: rotate(-3deg); }
+    }
+    @keyframes fadeinout {
+        0%,100% { opacity: 0; }
+        50% { opacity: 1; }
     }
 
     .main {
@@ -133,9 +137,7 @@ a[target="_blank"]:hover {
     }
 
     .page-category {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        width: 180px;
+        width: 200px;
     }
 
     .page-button {
@@ -143,7 +145,7 @@ a[target="_blank"]:hover {
     }
 
     .page-button:hover {
-        animation-name: tilt-loop;
+        animation-name: fadeinout;
         animation-duration: 1s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
