@@ -48,16 +48,6 @@ a[target="_blank"]:hover {
     padding: 0;
 }
 
-.container {
-    background-color: #e4aaff;
-    opacity: 0.8;
-    border-style: double;
-    border-color: #8057cc;
-    margin: var(--container-margin);
-    color: #a032b6;
-    position:relative;
-}
-
 .nav-container {
     position: absolute;
     width: 250px;
@@ -157,6 +147,16 @@ a[target="_blank"]:hover {
         animation-duration: 1s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
+    }
+
+    .container {
+        background-color: #e4aaff;
+        opacity: 0.8;
+        border-style: double;
+        border-color: #8057cc;
+        margin: var(--container-margin);
+        color: #a032b6;
+        position:relative;
     }
 
     .page-button a:hover {
