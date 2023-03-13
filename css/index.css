@@ -26,6 +26,11 @@ marquee {
     right:0;
 }
 
+hr.rounded {
+    border-top: 8px solid #e4aaff;
+    border-radius: 5px;
+  }
+
 .content h2 {
     text-align: center;
 }
