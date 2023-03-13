@@ -48,14 +48,6 @@ a[target="_blank"]:hover {
     padding: 0;
 }
 
-.nav-container {
-    position: absolute;
-    width: 250px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-}
-
 .page-category {
     background-color: #8057cc;
     color: #e4aaff;
@@ -99,6 +91,10 @@ a[target="_blank"]:hover {
     }
 
     .nav-header {
+        width: 100%;
+    }
+
+    .nav-container {
         width: 100%;
     }
 
@@ -169,5 +165,13 @@ a[target="_blank"]:hover {
 
     .nav-header {
         width: 720px;
+    }
+
+    .nav-container {
+        position: absolute;
+        width: 250px;
+        top: 0;
+        bottom: 0;
+        left: 0;
     }
 }
