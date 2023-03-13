@@ -95,10 +95,20 @@ a[target="_blank"]:hover {
     }
 
     .nav-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
         width: 100%;
     }
 
     .container {
+        background-color: #e4aaff;
+        opacity: 0.8;
+        border-style: double;
+        border-color: #8057cc;
+        margin: var(--container-margin);
+        color: #a032b6;
         width: 100%;
     }
 }
@@ -146,12 +156,6 @@ a[target="_blank"]:hover {
     }
 
     .container {
-        background-color: #e4aaff;
-        opacity: 0.8;
-        border-style: double;
-        border-color: #8057cc;
-        margin: var(--container-margin);
-        color: #a032b6;
         position:relative;
     }
 
@@ -168,10 +172,6 @@ a[target="_blank"]:hover {
     }
 
     .nav-container {
-        position: absolute;
         width: 250px;
-        top: 0;
-        bottom: 0;
-        left: 0;
     }
 }
