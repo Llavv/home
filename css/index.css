@@ -28,6 +28,7 @@ marquee {
 
 hr.rounded {
     border-top: 8px solid #e4aaff;
+    border-bottom-width: 5;
     border-radius: 5px;
   }
 
