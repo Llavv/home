@@ -99,7 +99,6 @@ a[target="_blank"]:hover {
         top: 0;
         bottom: 0;
         left: 0;
-        width: 100%;
     }
 
     .container {
@@ -109,12 +108,7 @@ a[target="_blank"]:hover {
         border-color: #8057cc;
         margin: var(--container-margin);
         color: #a032b6;
-        width: 100%;
-    }
-
-    .content {
-        width: 100%;
-        display: inline-block;
+        position:inherit
     }
 }
 
@@ -136,6 +130,8 @@ a[target="_blank"]:hover {
     }
 
     .content {
+        width: 100%;
+        display: inline-block;
         height: 480px;
     }
 
@@ -175,6 +171,11 @@ a[target="_blank"]:hover {
     }
 
     .nav-container {
-        width: 250px;
+        width: 256px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        position: absolute;
     }
 }

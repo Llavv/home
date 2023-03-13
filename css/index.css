@@ -16,16 +16,6 @@ marquee {
     padding: 3px;
 }
 
-.marquee {
-    position:absolute;
-    bottom:0;
-    margin:auto;
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-}
-
 hr.rounded {
     border-top: 8px solid #e4aaff;
     border-radius: 5px;
@@ -69,11 +59,23 @@ hr.rounded {
         box-shadow: 5px 5px 3px #a032b6;
         display: flex;
     }
+
+    .marquee {
+        margin:auto;
+        position:fixed;
+        bottom:0;
+        left:0;
+        right:0;
+    }
 }
 
 /* desktop */
 @media (min-width: 780px) {
     .main {
         margin-top: 5%;
+    }
+
+    .marquee {
+        position:absolute;
     }
 }
