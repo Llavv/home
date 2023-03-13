@@ -158,6 +158,11 @@ a[target="_blank"]:hover {
         position:relative;
     }
 
+    .containter.content {
+        margin-left: 256px;
+        left: 0;
+    }
+
     .page-button a:hover {
         color: #9300c0;
     }
