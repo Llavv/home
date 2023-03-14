@@ -132,7 +132,7 @@ a[target="_blank"]:hover {
     .content {
         width: 100%;
         display: inline-block;
-        height: 480px;
+        height: 700px;
     }
 
     .navbar {
@@ -160,7 +160,6 @@ a[target="_blank"]:hover {
 
     div.container.content.primary {
         margin-left: 261px;
-        height: 800px
         left: 0;
     }
 
